@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <context-param>
+        <param-name>dbName</param-name>
+        <param-value>jdbc:mysql://localhost:3306/sindicato</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbUser</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbPass</param-name>
+        <param-value>12345</param-value>
+    </context-param>
+    <context-param>
+        <param-name>upload.location</param-name>
+        <!--<param-value>C:\\Users\\LuisAlejandro\\Dropbox\\Sindicato\\web\\img</param-value> -->
+        <param-value>C:/Users/LuisAlejandro/Dropbox/Sindicato/web/img</param-value>
+    </context-param>
+    <context-param>
+        <param-name>permisos</param-name>
+        <!--<param-value>C:\\Users\\LuisAlejandro\\Dropbox\\Sindicato\\web\\img</param-value> -->
+        <param-value>C:/Users/LuisAlejandro/Dropbox/Sindicato/web/permisos</param-value>
+    </context-param>
+    <context-param>
+        <param-name>formatos</param-name>
+        <param-value>C:/Users/LuisAlejandro/Dropbox/Sindicato/web/minutas</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dir</param-name>
+        <param-value>C:/Users/LuisAlejandro/Dropbox/Sindicato/web</param-value>
+    </context-param>
+    
+    
+    
+    <session-config>
+        <session-timeout>
+            60
+        </session-timeout>
+    </session-config>
+</web-app>

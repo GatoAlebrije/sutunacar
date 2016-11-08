@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding-top: 50px;
+}
+.panel .icon-panel {
+    font-size: 80px;
+}
+.main {
+    border-left: 1px solid #e0e0e0;
+}
+nav i{
+    margin-top: -2px;
+}
+table thead{
+    background-color: #fff;
+}
+.table:nth-child(even) {
+    background-color: #eee;
+}
+
+
+.noticias p{
+    font-size: 13px;
+}
