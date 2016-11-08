@@ -35,6 +35,9 @@
         <param-value>C:/Users/LuisAlejandro/Dropbox/Sindicato/web</param-value>
     </context-param>
     
+     <welcome-file-list>
+	    <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
     
     
     <session-config>
